@@ -1,15 +1,14 @@
 package com.elif;
 
-import com.elif.classandobject.Car;
-import com.elif.encapsulation.Car1;
+import com.elif.staticmethod.staticmethod;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-          Car car = new Car("TOGG", "T10X", 2023);
-           car.display();
-        */
-        Car1 car = new Car1();
+/*
+        Car car = new Car("TOGG", "T10X", 2023);
+        car.display();
+*/
+/*      Car1 car = new Car1();
 
         car.setBrand("Audi");
         car.setModel("A3");
@@ -20,7 +19,8 @@ public class Main {
         int year = car.getYear();
 
         car.display(brand, model,year);
+*/
 
-
+        staticmethod.multiplication(21,25);
     }
 }
