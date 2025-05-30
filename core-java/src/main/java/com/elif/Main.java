@@ -1,5 +1,6 @@
 package com.elif;
 
+import com.elif.inheritance.Carr;
 import com.elif.staticmethod.staticmethod;
 
 public class Main {
@@ -21,6 +22,11 @@ public class Main {
         car.display(brand, model,year);
 */
 
-        staticmethod.multiplication(21,25);
+//      staticmethod.multiplication(21,25);
+
+        Carr myCar = new Carr();
+        myCar.setSpeed(125.0);
+        System.out.println("Car Speed : " + myCar.getSpeed());
+
     }
 }
