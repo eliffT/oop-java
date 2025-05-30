@@ -4,6 +4,9 @@ import com.elif.inheritance.Carr;
 import com.elif.overloading.Calculator;
 import com.elif.overriding.CarClass;
 import com.elif.overriding.Vehiclee;
+import com.elif.polymorphism.Animal;
+import com.elif.polymorphism.Cat;
+import com.elif.polymorphism.Dog;
 import com.elif.staticmethod.staticmethod;
 import com.elif.student.Student;
 
@@ -44,14 +47,21 @@ public class Main {
         CarClass car0 = new CarClass();
         car0.start();
 */
-
+/*
         Calculator calculator = new Calculator();
         int result1 = calculator.add(51,7);
         int result2 = calculator.add(28,7,6);
 
         System.out.println("İki tamsayının toplamı: " + result1);
         System.out.println("Üç tamsayının toplamı: " + result2);
+*/
+        Animal animal = new Animal();
+        Animal animal1 = new Cat();
+        Animal animal2 = new Dog();
 
+        animal.makeSound(); //Animal
+        animal1.makeSound(); //Cat
+        animal2.makeSound(); //Dog
 
     }
 }
