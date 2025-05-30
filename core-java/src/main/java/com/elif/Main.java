@@ -1,5 +1,8 @@
 package com.elif;
 
+import com.elif.abstractt.Circle;
+import com.elif.abstractt.Rectangle;
+import com.elif.abstractt.Shapee;
 import com.elif.inheritance.Carr;
 import com.elif.interfacee.Cats;
 import com.elif.interfacee.Dogs;
@@ -12,6 +15,8 @@ import com.elif.polymorphism.Cat;
 import com.elif.polymorphism.Dog;
 import com.elif.staticmethod.staticmethod;
 import com.elif.student.Student;
+
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,10 +72,18 @@ public class Main {
         animal1.makeSound(); //Cat
         animal2.makeSound(); //Dog
 */
+/*
         Animall dog = new Dogs();
         Animall cat = new Cats();
 
         dog.Sound();
         cat.Sound();
+*/
+
+        Shapee s1 = new Rectangle();
+        Shapee s2 = new Circle();
+
+        s1.draw();
+        s2.draw();
     }
 }
