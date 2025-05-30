@@ -2,6 +2,7 @@ package com.elif;
 
 import com.elif.inheritance.Carr;
 import com.elif.staticmethod.staticmethod;
+import com.elif.student.Student;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,9 +25,12 @@ public class Main {
 
 //      staticmethod.multiplication(21,25);
 
-        Carr myCar = new Carr();
+/*      Carr myCar = new Carr();
         myCar.setSpeed(125.0);
         System.out.println("Car Speed : " + myCar.getSpeed());
+*/
+        Student s = new Student("Elif", 21, "Uludağ Üniversitesi");
+        s.print();
 
     }
 }
