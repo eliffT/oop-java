@@ -1,6 +1,8 @@
 package com.elif;
 
 import com.elif.inheritance.Carr;
+import com.elif.overriding.CarClass;
+import com.elif.overriding.Vehiclee;
 import com.elif.staticmethod.staticmethod;
 import com.elif.student.Student;
 
@@ -29,8 +31,17 @@ public class Main {
         myCar.setSpeed(125.0);
         System.out.println("Car Speed : " + myCar.getSpeed());
 */
-        Student s = new Student("Elif", 21, "Uludağ Üniversitesi");
+/*      Student s = new Student("Elif", 21, "Uludağ Üniversitesi");
         s.print();
+*/
+
+        Vehiclee v = new Vehiclee();
+        v.start();
+
+        System.out.println("----------------Overriding---------------------");
+
+        CarClass car0 = new CarClass();
+        car0.start();
 
     }
 }
