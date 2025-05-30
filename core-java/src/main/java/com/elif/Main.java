@@ -1,6 +1,7 @@
 package com.elif;
 
 import com.elif.inheritance.Carr;
+import com.elif.overloading.Calculator;
 import com.elif.overriding.CarClass;
 import com.elif.overriding.Vehiclee;
 import com.elif.staticmethod.staticmethod;
@@ -34,7 +35,7 @@ public class Main {
 /*      Student s = new Student("Elif", 21, "Uludağ Üniversitesi");
         s.print();
 */
-
+/*
         Vehiclee v = new Vehiclee();
         v.start();
 
@@ -42,6 +43,15 @@ public class Main {
 
         CarClass car0 = new CarClass();
         car0.start();
+*/
+
+        Calculator calculator = new Calculator();
+        int result1 = calculator.add(51,7);
+        int result2 = calculator.add(28,7,6);
+
+        System.out.println("İki tamsayının toplamı: " + result1);
+        System.out.println("Üç tamsayının toplamı: " + result2);
+
 
     }
 }
