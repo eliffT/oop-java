@@ -1,6 +1,9 @@
 package com.elif;
 
 import com.elif.inheritance.Carr;
+import com.elif.interfacee.Cats;
+import com.elif.interfacee.Dogs;
+import com.elif.interfacee.Animall;
 import com.elif.overloading.Calculator;
 import com.elif.overriding.CarClass;
 import com.elif.overriding.Vehiclee;
@@ -55,6 +58,7 @@ public class Main {
         System.out.println("İki tamsayının toplamı: " + result1);
         System.out.println("Üç tamsayının toplamı: " + result2);
 */
+/*
         Animal animal = new Animal();
         Animal animal1 = new Cat();
         Animal animal2 = new Dog();
@@ -62,6 +66,11 @@ public class Main {
         animal.makeSound(); //Animal
         animal1.makeSound(); //Cat
         animal2.makeSound(); //Dog
+*/
+        Animall dog = new Dogs();
+        Animall cat = new Cats();
 
+        dog.Sound();
+        cat.Sound();
     }
 }
